@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  margin: 1vh 2vw;
+  padding: 1vh 2vw;
+  max-height: 20vh;
+  border: blue solid 1px;
+  align-items: center;
+}
+
+.logo {
+  max-width: 20vw;
+  max-height: 20vh;
+}
