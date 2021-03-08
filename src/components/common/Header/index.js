@@ -6,7 +6,6 @@ const Header = () => {
   return (
     <div className={styles.container}>
       <img src={logo} alt="College logo" className={styles.logo} />
-
       <h1>Thakur college of science and commerce</h1>
     </div>
   );

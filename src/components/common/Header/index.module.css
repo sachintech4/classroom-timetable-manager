@@ -5,6 +5,7 @@
   max-height: 20vh;
   border: blue solid 1px;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .logo {

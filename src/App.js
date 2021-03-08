@@ -1,15 +1,25 @@
 import styles from "./App.module.css";
 import Button from "./components/common/Button";
+import Header from "./components/common/Header";
 
 const App = () => {
   return (
     <div className={styles.App}>
-      <h1>Thakur college of science and commerce</h1>
+      <Header />
       <h2>Classroom management system</h2>
       <h3>Select user type</h3>
-      <Button buttonText={"Admin"}/>
-      <Button buttonText={"Teacher"}/>
-      <Button buttonText={"Student"}/>
+
+      <div className={styles.userButtonsContainer}>
+        <div className={styles.userButtonContainer}>
+          <Button buttonText={"Admin"} />
+        </div>
+        <div className={styles.userButtonContainer}>
+          <Button buttonText={"Teacher"} />
+        </div>
+        <div className={styles.userButtonContainer}>
+          <Button buttonText={"Student"} />
+        </div>
+      </div>
     </div>
   );
 };
