@@ -3,12 +3,13 @@
   margin: 1vh 2vw;
   padding: 1vh 2vw;
   max-height: 20vh;
-  border: blue solid 1px;
   align-items: center;
   justify-content: space-evenly;
+  /* border: blue solid 1px; */
 }
 
 .logo {
   max-width: 20vw;
   max-height: 20vh;
+  margin-right: 1vw;
 }
