@@ -1,0 +1,42 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+
+  /* border: 10px solid red; */
+  background: #dbe4ee;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: baseline; */
+}
+
+.welcomeMsgContainer {
+  padding: 0.5vh 0.5vw;
+  border-radius: 5px;
+  border: 2px black solid;
+  background: #81a4cd;
+  margin-top: 5vh;
+}
+
+.welcomeMsg {
+  font-size: 5vh;
+}
+
+.cardContainer {
+  padding: 3vh 2vw;
+  display: flex;
+  flex-direction: column;
+  border: 2px black solid;
+  margin-top: 5vh;
+  box-shadow: 4px 8px;
+  width: 50vw;
+}
+
+.cardContainer button {
+  margin-bottom: 4vh;
+  box-shadow: 2px 4px;
+}
+
+button {
+  background: #dbe4ee;
+}

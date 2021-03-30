@@ -1,0 +1,58 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+
+  /* border: 10px solid red; */
+  background: #dbe4ee;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: baseline; */
+}
+
+.welcomeMsgContainer {
+  padding: 0.5vh 0.5vw;
+  border-radius: 5px;
+  border: 2px black solid;
+  background: #81a4cd;
+  margin-top: 5vh;
+}
+
+.welcomeMsg {
+  font-size: 5vh;
+}
+
+.manageUserSectionContainer {
+  border: black 2px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10vh 0;
+  padding: 0 2vw 2vw 2vw;
+  box-shadow: 4px 7px;
+}
+
+.manageUserSectionContainer button {
+  margin-bottom: 3vh;
+  box-shadow: 2px 4px;
+}
+
+.manageUserSection__text {
+  margin: 2vh 0;
+}
+
+.postButtonsContainer {
+  /* border: 1px red solid; */
+  padding: 1vh 1vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.postButtonsContainer button {
+  margin-bottom: 3vh;
+  box-shadow: 2px 4px;
+}
+
+button {
+  background: #DBE4EE;
+}
