@@ -1,0 +1,23 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+
+  /* border: 1px solid red; */
+
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: baseline; */
+}
+
+.manageUserSectionContainer {
+  /* border: red 1px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10vh 0;
+}
+
+.manageUserSectionContainer__text {
+  margin: 2vh 0;
+}

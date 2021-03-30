@@ -1,13 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./index_global.css";
-import styles from "./index.module.css";
-import App from "./App";
+
 import reportWebVitals from "./reportWebVitals";
+
+import AppRouter from "./routers/AppRouter";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App className={styles.app}/>
+    <AppRouter />
   </React.StrictMode>,
   document.getElementById("root")
 );
